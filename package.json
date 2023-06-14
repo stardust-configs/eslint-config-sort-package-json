@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-sort-package-json",
+  "version": "0.1.0",
+  "description": "Sort your package.json based on the package.json specifics",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "package.json"
+  ],
+  "homepage": "https://github.com/stardust-configs/eslint-config-sort-package-json#readme",
+  "bugs": "https://github.com/stardust-configs/eslint-config-sort-package-json/issues",
+  "license": "MIT",
+  "author": "P-Chan",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stardust-configs/eslint-config-sort-package-json.git"
+  },
+  "scripts": {
+    "version:major": "standard-version -r major",
+    "version:minor": "standard-version -r minor",
+    "version:patch": "standard-version -r patch"
+  },
+  "dependencies": {
+    "eslint-plugin-jsonc": "2.9.0"
+  },
+  "devDependencies": {
+    "@stardust-configs/prettier-config": "0.1.1",
+    "eslint": "8.42.0",
+    "prettier": "2.8.8",
+    "standard-version": "9.5.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "packageManager": "pnpm@8.6.2"
+}
