@@ -68,7 +68,7 @@ module.exports = {
             order: ['url', 'email'],
           },
           {
-            pathPattern: `^(author|contributors)$`,
+            pathPattern: '^(author|contributors)$',
             order: ['name', 'email', 'url'],
           },
           {
