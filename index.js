@@ -84,7 +84,12 @@ module.exports = {
             order: ['type', 'url', 'directory'],
           },
           {
-            pathPattern: '.*',
+            /**
+             * The order of keys in exports has implications, so ignore exports
+             *
+             * @see https://nodejs.org/api/packages.html#exports
+             */
+            pathPattern: '^(?!exports$)^.*$',
             order: {
               type: 'asc',
             },
