@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sort-package-json",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Sort your package.json based on the package.json specifics",
   "keywords": [
     "eslint",
